@@ -4,4 +4,7 @@ body{
     background-color: black;
     color:goldenrod;
     text-align: center;
+
+    border-style: double;
+    border-color: white;
 }
