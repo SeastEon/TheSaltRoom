@@ -1,0 +1,23 @@
+div.Gallery {
+    margin: 0;
+    background-color: black;
+    color:white;
+    text-align: center;
+
+    border-style: double;
+    border-color: goldenrod;
+    border-width: 2px;
+  }
+  div.Gallery:hover {
+    border: 1px solid #777;
+  }
+  
+div.Gallery.img {
+    width: 100%;
+    height: auto;
+  }
+  
+div.desc {
+    padding: 15px;
+    text-align: center;
+  }
