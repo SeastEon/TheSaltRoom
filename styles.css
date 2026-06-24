@@ -1,12 +1,8 @@
 body{
     margin: 0;
-    background-color: black;
-    color:white;
-    text-align: center;
-
-    border-style: double;
-    border-color: goldenrod;
-    border-width: 2px;
+    background: #0d1117;
+    accent-color: #58a6ff;
+    color: #c9d1d9;
 }
 
 :link{
@@ -24,6 +20,112 @@ body{
 h1{
     margin: 0;
     color:goldenrod;
-    text-align: center;
-    background-color: black;
+}
+
+h3{
+    margin: 0;
+    color:goldenrod;
+}
+
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.hero-image {
+    width: 250px;
+    height: auto;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+
+
+.project-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background: #161b22;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.project-card-image {
+    width: 250px;
+    height: auto;
+}
+
+.project-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+
+
+.flow > * + * {
+  margin-block-start: var(--flow-space, 1em);
+}
+
+.masonry {
+  --gutter: 0.25em;
+  --flow-space: var(--gutter);
+  --switcher-target-container-width: 25rem;
+}
+
+.switcher {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gutter, 1em);
+  align-items: var(--switcher-vertical-alignment, flex-start);
+}
+
+.switcher > * {
+  flex-grow: 1;
+  flex-basis: calc(
+    (var(--switcher-target-container-width, 40rem) - 100%) * 999
+  );
+}
+
+.wrapper {
+  max-width: 80rem;
+  margin-inline: auto;
+  padding-inline: var(--gutter);
 }

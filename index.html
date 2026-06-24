@@ -5,30 +5,109 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
+<section>
+    <ul>
+    <li><a href="default.asp">Home </a></li>
+    <li><a href="news.asp">About Me </a></li>
+    <li><a href="contact.asp">Contact </a></li>
+    <li> <a href="/TheSaltRoom/Cv.html"> Portfolio </a></li>
+    </ul>
+</section>
+
+<section class="hero">
+    <div class ="hero-text">
+        <h1>Judah Smith Dyer</h1>
+        <h2>Health Data Scientist & Software Developer</h2>
+        <p>Building data-driven solutions and creative digital experiences.</p>
+    </div>
+    <img class="hero-image" src="Assets/JudahToken.png" alt="Judah Smith Dyer">
+</section>
+
 <body>
-    <h1>Judah Smith Dyer Portfolio</h1>
     <h2>About Me!</h2>
-    <p>Hi, My name is Judah Smith Dyer. I currently attend Full Sail University and I will be graduating this June.</p>
-    <p>I love to play video games like all of the FromSoft games, Terraria or Valheim. I love being able to control your own experience.</p>
+    <p>Master's graduate in Health Data Science with a Computer Science background. Passionate about data</p>
+    <p> analytics, software development, and creative technologies. I enjoy building projects that combine</p>
+    <p> technical problem-solving with design and user experience.technical problem-solving with design and user experience. <p>
+    <p>In addition to my academic achievements, I have a diverse range of hobbies and interests that keep me engaged and inspired. I love to play video games like all of the FromSoft games, Terraria or Valheim. I love being able to control your own experience.</p>
     <p>My hobbies inculde: digital and tradition drawing, playing guitar, 3D modeling, and a bit of writing. I enjoy explore different ways I can be creative.</p>
 </body>
 
-<body>
-    <h1>Professional Documents<br></h1>
-    <a href="/TheSaltRoom/ResumePage.html"> Resume <br> <br></a>
+<embed
+    src="Assets/Resume.pdf"
+    type="application/pdf"
+    width="100%"
+    height="1000px">
+    
+<div class="project-card">
+    <h1>Resume<br></h1>
+    <embed style="height: 50vh; width: 50%;" src="/TheSaltRoom/Assets/Resume.pdf" type=""> <br>
     <a href="/TheSaltRoom/Cv.html"> Cv <br></a>
-</body>
+</div>
 
 <body>
-    <h1>Projects<br></h1>
-    <a href="/TheSaltRoom/SketchToMesh.html"> Sketch-To-Mesh <br> <br></a>
-    <a href="/TheSaltRoom/TheBasement.html"> TheBasement <br> <br></a>
-    <a href="/TheSaltRoom/HomeStock.html"> HomeStock <br> <br></a>
+    <h1 style="font-size:40px;"> Projects </h1>
+
+    <div class="project-card">
+        <div class ="hero-text">
+            <h3 style="font-size:40px;"  >Sketch-To-Mesh</h3>
+            <p>Created using Python and Open3D. <br>
+            Convert hand-drawn sketches into 3D models.</p>
+            <a href="/TheSaltRoom/SketchToMesh.html"> View Project </a>
+        </div>
+        <img class="project-card-image" src="Assets/STMesh.png" alt="Sketch-To-Mesh">
+    </div>
+
+    <div class="project-card">
+        <div class ="hero-text">
+            <h3  style="font-size:40px;" >TheBasement</h3>
+            <p> Created using Android Studio and Written in Kotlin.<br>
+            Store vital information safely while maintaining privacy.</p>
+            <a href="/TheSaltRoom/TheBasement.html"> View Project </a>
+        </div>
+        <img class="project-card-image" src="Assets/TheBasement.png" alt="The Basement">
+    </div>
+
+    <div class="project-card">
+        <div class ="hero-text">
+            <h3  style="font-size:40px;" >HomeStock </h3>
+            <p> Created using Android Studio and Written in Java.<br>
+            Convert hand-drawn sketches into 3D models.</p>
+            <a href="/TheSaltRoom/HomeStock.html"> View Project </a>
+        </div>
+        <img class="project-card-image" src="Assets/HomeStock2.png" alt="HomeStock">
+    </div>
 </body>
 
+
 <body>
-    <h1>Gallery<br></h1>
+    <h1 style="font-size:60px;"> Gallery<br></h1>
     <a href="/TheSaltRoom/Gallery"> Gallery <br> <br></a>
+
+    <div class="masonry wrapper switcher">
+        <!--Column 1-->
+        <div class="flow">
+            <img src="Assets/WaspHelm.png" alt="Cinque Terre" width="800">
+            <img src="Assets/MultiKai.png" alt="Cinque Terre" width="300">
+            <img src="Assets/MultiKaiRender.png" alt="Cinque Terre" width="800">
+            <img src="Assets/A'shla.png" alt="Cinque Terre" width="300">
+        </div>
+
+        <!--Column 2-->
+        <div class="flow">
+            <img src="Assets/AraiBase.png" alt="Cinque Terre" width="400">
+            <img src="Assets/GreyDND.png" alt="Cinque Terre" width="300">
+            <img src="Assets/Artanus_1.png" alt="Cinque Terre" width="300">
+        </div>
+
+            <!--Column 2-->
+        <div class="flow">
+            <img src="Assets/CastingMask2.png" alt="Cinque Terre" width="800">
+            <img src="Assets/Ceast_Helmed.png" alt="Cinque Terre" width="300">
+            
+            <img src="Assets/RenderedCeast.png" alt="Cinque Terre" width="800">
+        </div>
+    </div>
 </body>
 
 </html>
