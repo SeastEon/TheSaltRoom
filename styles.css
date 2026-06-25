@@ -70,6 +70,11 @@ ul li a:hover {
 }
 
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .project-card {
     display: flex;
@@ -77,10 +82,12 @@ ul li a:hover {
     justify-content: center;
     gap: 40px;
     background: #161b22;
-    padding: 20px;
+    padding: 100px;
+    width: 700px;
     border-radius: 12px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    margin: auto;
 }
 
 .project-card-image {
@@ -128,4 +135,9 @@ ul li a:hover {
   max-width: 80rem;
   margin-inline: auto;
   padding-inline: var(--gutter);
+}
+
+.Galleryimage {
+    width: 250px;
+    height: auto;
 }
